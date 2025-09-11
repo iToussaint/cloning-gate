@@ -572,19 +572,19 @@
 
     <section class="mb-44">
       <div class="bg-[url('/blue.png')] text-center text-slate-50 pt-32">
-        <div class="max-w-screen-xl mx-auto flex flex-col items-center gap-y-3">
+        <div class=" flex flex-col items-center gap-y-3">
           <h1 class="font-garamond text-6xl">Penn Priorities</h1>
-          <div class="h-2 w-10 bg-gray-700"></div>
-          <div class="w-1/2 bg-green-400">
+          <div class="h-[3px] w-10 bg-slate-500"></div>
+          <div class="w-1/2 p-5">
             <p>
               A look at a few of our big picture priorities that improve Penn as
               we create knowledge to benefit the world.
             </p>
           </div>
 
-          <div class="flex gap-x-10 overflow-scroll -mb-36">
+          <div class="grid grid-cols-3 gap-10 overflow-x-scroll  ">
             <div
-              class="bg-[url('/priorities-1.jpeg')] bg-cover bg-center w-2xl h-96 flex items-end font-garamond text-xl"
+              class="bg-[url('/priorities-1.jpeg')] bg-cover bg-center aspect-video w-xl flex items-end font-garamond text-xl"
             >
               <div class="flex bg-slate-50 text-slate-800 items-center">
                 <div class="p-7">Climate And Sustainability Action Plan</div>
@@ -594,7 +594,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="size-6"
+                    class="size-6 fill-slate-50"
                   >
                     <path
                       fill-rule="evenodd"
@@ -606,7 +606,7 @@
               </div>
             </div>
             <div
-              class="bg-[url('/priorities-2.jpeg')] bg-cover bg-center w-2xl h-96 flex items-end font-garamond text-xl"
+              class="bg-[url('/priorities-2.jpeg')] bg-cover bg-center w-xl  aspect-video flex items-end font-garamond text-xl"
             >
               <div class="flex bg-slate-50 text-slate-800 items-center">
                 <div class="p-7">Climate And Sustainability Action Plan</div>
@@ -616,7 +616,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="size-6"
+                    class="size-6 fill-slate-50"
                   >
                     <path
                       fill-rule="evenodd"
@@ -628,7 +628,7 @@
               </div>
             </div>
             <div
-              class="bg-[url('/priorities-3.jpeg')] bg-cover bg-center w-2xl h-96 flex items-end font-garamond text-xl"
+              class="bg-[url('/priorities-3.jpeg')] bg-cover bg-center w-xl  aspect-video flex items-end font-garamond text-xl"
             >
               <div class="flex bg-slate-50 text-slate-800 items-center">
                 <div class="p-7">Climate And Sustainability Action Plan</div>
@@ -638,7 +638,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="size-6"
+                    class="size-6 fill-slate-50"
                   >
                     <path
                       fill-rule="evenodd"
@@ -762,7 +762,7 @@
         <h1 class="font-garamond text-3xl">
           Equal Opportunity and Nondiscrimination at Penn
         </h1>
-        <p class="font-semibold">
+        <p class="font-normal">
           The University of Pennsylvania seeks talented students, faculty, and
           staff with a wide variety of backgrounds, experiences, and
           perspectives. The University of Pennsylvania does not discriminate on
@@ -778,42 +778,42 @@
           421, Philadelphia, PA 19104-6106; or (215) 898-6993.
         </p>
 
-        <button class="border-1 border-slate-50 py-4 px-8 rounded-4xl">
+        <button class="border-1 border-slate-100/30 text-xs tracking-widest py-6 px-8 rounded-4xl">
           NONDISCRIMINATION STATEMENT
         </button>
       </div>
     </section>
 
     <section
-      class="min-h-screen bg-[url('/footer.png')] bg-cover bg-center relative flex text-slate-50"
+      class="min-h-screen bg-[url('/footer.png')] bg-cover bg-center relative flex text-slate-50 text-sm font-semibold tracking-widest px-5 py-10"
     >
-      <div class="absolute inset-0 bg-[rgb(1,31,91)]/75 -z-1"></div>
+      <div class="absolute inset-0 bg-blue/95 -z-1"></div>
 
       <div
-        class="max-w-screen-xl mx-auto bg-red-400 flex flex-col justify-around"
+        class="max-w-screen-xl mx-auto gap-y-10 flex flex-col items-center text-center md:text-start justify-around"
       >
-        <div class="grid grid-cols-3">
-          <div class="flex flex-col gap-y-10">
+        <div class="grid grid-cols-1 gap-y-10 md:grid-cols-3">
+          <div class="flex flex-col gap-y-14">
             <div>
               <ul class="flex flex-col gap-y-3">
-                <li><img src="/logo.svg" alt="" /></li>
+                <li><img class="h-14 mx-auto md:mx-0" src="/logo.svg" alt="" /></li>
                 <li>Philadelphia, PA 19104</li>
                 <li>Telephone: (215) 898-5000</li>
               </ul>
             </div>
 
-            <ul class="flex flex-col gap-y-3">
+            <ul class="flex flex-col gap-y-7 uppercase">
               <li>Contact Us</li>
               <li>Maps</li>
               <li>Parking</li>
             </ul>
           </div>
           <div class="space-y-6">
-            <div>
-              <h1 class="font-garamond text-4xl">Navigate</h1>
-              <div class="h-2 w-10 bg-gray-500"></div>
+            <div class="space-y-2">
+              <h1 class="font-garamond text-2xl">Navigate</h1>
+              <div class="h-[3px] w-6 bg-slate-500 mx-auto"></div>
             </div>
-            <ul class="flex flex-col gap-y-5">
+            <ul class="flex flex-col gap-y-7 uppercase">
               <li>Alumni</li>
               <li>Athletics</li>
               <li>Belonging</li>
@@ -823,20 +823,20 @@
               <li>Penn Global</li>
             </ul>
           </div>
-          <div class="space-y-5">
+          <div class="space-y-10">
             <h1 class="font-bold text-2xl">Penn's Heritage</h1>
-            <p class="italic">
+            <p class="italic pr-14 font-normal w-2/3 mx-auto md:mx-start">
               As America’s first university, Penn has a history that dates back
               to 1740 and shares many ties with the colonial city of
               Philadelphia and the birth of our nation.
             </p>
-            <button>OUR HISTORY</button>
+            <button class="border-1 border-slate-100/30 py-5 px-16 rounded-4xl">OUR HISTORY</button>
           </div>
         </div>
-        <div class="flex justify-between">
+        <div class="flex flex-col-reverse items-center md:flex-row justify-between gap-y-10">
           <div class="flex items-center gap-x-2 flex-1">
             <div
-              class="w-20 h-20 border-1 border-slate-50 flex items-center justify-center"
+              class="w-16 h-16 border-1 border-slate-100/40 flex items-center justify-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -855,14 +855,14 @@
           </div>
           <div class="flex-1">
             <ul
-              class="flex flex-wrap divide-x-1 divide-slate-50 uppercase text-sm"
+              class="flex flex-col md:flex-row flex-wrap md:divide-x-1 divide-slate-50 uppercase text-xs tracking-widest gap-y-5"
             >
-              <li class="px-4">Disclaimer</li>
-              <li class="px-4">Emergency Services</li>
-              <li class="px-4">Nondiscrimination</li>
-              <li class="px-4">Privacy Policy</li>
-              <li class="px-4">Report Accessibility Issues and Get Help</li>
-              <li class="px-4">Report Copyright Infringement</li>
+              <li class="px-5">Disclaimer</li>
+              <li class="px-5">Emergency Services</li>
+              <li class="px-5">Nondiscrimination</li>
+              <li class="px-5">Privacy Policy</li>
+              <li class="px-5">Report Accessibility Issues and Get Help</li>
+              <li class="px-5">Report Copyright Infringement</li>
             </ul>
           </div>
         </div>
