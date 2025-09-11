@@ -227,7 +227,7 @@
         <div
           class="container grid grid-cols-1 md:grid-cols-2 text-center divide-y divide-x divide-slate-300"
         >
-          <div class="flex flex-col items-center gap-y-3 px-4">
+          <div class="flex flex-col items-center p-10 md:p-0 gap-y-3 px-4">
             <div>
               <img src="public/news-1.jpeg" alt="" />
             </div>
@@ -245,7 +245,7 @@
             <div
               class="grid grid-cols-1 md:grid-cols-2 divide-x-1 divide-y-1 divide-slate-300"
             >
-              <div class="flex flex-col items-center gap-y-3 px-4">
+              <div class="flex flex-col items-center gap-y-3 p-10 md:p-4">
                 <div class="hidden md:block">
                   <img src="public/news-2.jpeg" alt="" />
                 </div>
@@ -262,7 +262,7 @@
                 </div>
               </div>
               <div
-                class="flex flex-col items-center gap-y-3 p-4 pt-0 border-b-1 border-b-slate-300"
+                class="flex flex-col items-center gap-y-3 p-10 md:p-4 border-b-1 border-b-slate-300"
               >
                 <div class="hidden md:block">
                   <img src="public/news-3.jpeg" alt="" />
@@ -273,14 +273,14 @@
                   >
                     Health & Medecine
                   </h1>
-                  <p class="font-garamond text-lg/tight">
+                  <p class="font-garamond text-xl md:text-lg/tight">
                     Exposure to air pollution worsens Alzheimer's disease
                   </p>
                   <div class="w-5 h-[3px] bg-slate-300"></div>
                 </div>
               </div>
 
-              <div class="flex flex-col items-center gap-y-3 p-4">
+              <div class="flex flex-col items-center gap-y-3 p-10 md:p-4">
                 <div class="hidden md:block">
                   <img src="public/news-4.jpeg" alt="" />
                 </div>
@@ -290,25 +290,25 @@
                   >
                     Health & Medecine
                   </h1>
-                  <p class="font-garamond text-lg/tight">
+                  <p class="font-garamond text-xl md:text-lg/tight">
                     Exposure to air pollution worsens Alzheimer's disease
                   </p>
                   <div class="w-5 h-[3px] bg-slate-300"></div>
                 </div>
               </div>
               <div
-                class="flex flex-col items-center gap-y-3 p-4 border-b-1 border-b-slate-300"
+                class="flex flex-col items-center gap-y-3 p-10 md:p-4 border-b-1 border-b-slate-300"
               >
                 <div class="hidden md:block">
                   <img src="public/news-5.jpeg" alt="" />
                 </div>
-                <div class="flex flex-col items-center gap-y-1">
+                <div class="flex flex-col items-center gap-y-2">
                   <h1
                     class="font-roboto uppercase text-xs font-semibold tracking-widest text-amber-700"
                   >
                     Health & Medecine
                   </h1>
-                  <p class="font-garamond text-lg/tight">
+                  <p class="font-garamond text-xl md:text-lg/tight">
                     Exposure to air pollution worsens Alzheimer's disease
                   </p>
                   <div class="w-5 h-[3px] bg-slate-300"></div>
@@ -317,7 +317,7 @@
             </div>
             <div class="py-10">
               <h1
-                class="font-roboto uppercase text-xs font-normal tracking-widest text-amber-700"
+                class="font-roboto uppercase text-xs font-semibold tracking-widest text-amber-700"
               >
                 MORE NEWS VIA PENN TODAY
               </h1>
@@ -328,26 +328,30 @@
     </section>
 
     <section
-      class="text-sm font-roboto bg-[url('/safety.jpeg')] bg-center bg-cover min-h-screen flex items-center mx-10"
+      class="text-sm font-roboto bg-[url('/safety.jpeg')] bg-center bg-cover min-h-screen flex items-center 2xl:container mx-auto mb-20 lg:mb-0 relative xl:static"
     >
-      <div class="max-w-screen-xl bg-amber-200 mx-auto">
-        <div class="bg-blue-900 text-slate-50 text-center w-1/2 p-3">
+      <div
+        class="xl:max-w-screen-xl mx-auto bg-red-400 lg:static absolute -bottom-28"
+      >
+        <div
+          class="bg-blue text-slate-50 container mx-auto text-center w-fit max-w-xl p-3"
+        >
           <div
-            class="border-1 border-red-400 p-7 pt-20 flex flex-col gap-y-8 items-center"
+            class="border-1 border-slate-700 py-10 px-3 pt-20 flex flex-col gap-y-8 items-center"
           >
             <div class="flex flex-col gap-y-2 items-center">
               <h1
-                class="font-roboto uppercase text-sm font-normal tracking-widest"
+                class="font-roboto uppercase text-xs font-semibold tracking-widest"
               >
                 Health & Medicine
               </h1>
-              <p class="font-garamond text-4xl">
+              <p class="font-garamond text-2xl lg:text-4xl">
                 Keeping food safe and animals healthy
               </p>
-              <div class="w-6 h-2 bg-gray-600"></div>
+              <div class="w-6 h-[3px] bg-slate-600"></div>
             </div>
 
-            <div class="px-10 bg-red-300 text-lg">
+            <div class="px-10 text-sm/loose lg:text-lg">
               <p>
                 As part of the Pennsylvania Animal Diagnostic Laboratory System
                 (PADLS), Penn Vet’s New Bolton Center helps to protect animals
@@ -357,7 +361,7 @@
             </div>
 
             <button
-              class="px-20 py-5 rounded-4xl border-1 border-slate-500 font-roboto uppercase text-sm font-normal tracking-widest"
+              class="px-14 py-6 rounded-4xl border-1 border-slate-600 font-roboto uppercase text-xs font-semibold tracking-widest"
             >
               LEARN MORE
             </button>
@@ -366,25 +370,25 @@
       </div>
     </section>
 
-    <section class="bg-gray-500 flex py-20">
+    <section class="flex py-20 text-blue">
       <div
-        class="max-w-screen-xl min-h-screen mx-auto bg-amber-400 flex-1 flex flex-col gap-y-8"
+        class="xl:max-w-screen-xl min-h-screen mx-auto px-4 lg:px-8 flex-1 flex flex-col gap-y-8"
       >
         <div class="space-y-3">
-          <h1 class="text-4xl font-garamond">Upcoming Events</h1>
-          <div class="h-1 w-9 bg-gray-500"></div>
+          <h1 class="text-5xl font-garamond">Upcoming Events</h1>
+          <div class="h-1 w-9 bg-slate-400"></div>
         </div>
         <div
-          class="grid grid-cols-3 divide-x-1 divide-slate-600 flex-1 bg-blue-400"
+          class="grid grid-cols-3 divide-x-1 divide-slate-300 flex-1 overflow-x-auto"
         >
-          <div class="px-5 flex flex-col gap-y-5">
-            <div class="flex-1 flex flex-col gap-y-1">
+          <div class="flex flex-col gap-y-5 pr-4 lg:pr-8 min-w-screen-xl">
+            <div class="flex-1 flex flex-col gap-y-2">
               <div
                 class="bg-[url('/upcoming-events-1.jpeg')] bg-center bg-cover flex-1 flex pt-5 pr-5"
               >
                 <div class="flex-1 flex items-end">
                   <p
-                    class="bg-slate-50 pt-5 w-full font-roboto uppercase text-xs font-normal tracking-widest"
+                    class="bg-white pt-5 w-full font-roboto uppercase text-xs font-semibold tracking-widest"
                   >
                     Special Events
                   </p>
@@ -396,12 +400,12 @@
                   <h1 class="px-4 py-2 text-3xl font-garamond">11</h1>
                 </div>
               </div>
-              <div class="h-2 w-10 bg-gray-600"></div>
+              <div class="h-[3px] w-6 bg-slate-400"></div>
             </div>
-            <div>
-              <h1 class="text-3xl font-garamond">Cores Day 2025</h1>
+            <div class="space-y-1">
+              <h1 class="text-2xl font-garamond">Cores Day 2025</h1>
 
-              <p>
+              <p class="text-sm xl:text-base text-blue/70">
                 The annual Cores Day event is a joint venture between Penn Vet,
                 the Children’s Hospital of Philadelphia, the Perelman School of
                 Medicine, and the Wistar Institute to showcase the many
@@ -412,14 +416,14 @@
               </p>
             </div>
           </div>
-          <div class="px-5 flex flex-col gap-y-5">
-            <div class="flex-1 flex flex-col gap-y-1">
+          <div class="flex flex-col gap-y-5 px-4 lg:px-8">
+            <div class="flex-1 flex flex-col gap-y-2">
               <div
                 class="bg-[url('/upcoming-events-2.jpeg')] bg-center bg-cover flex-1 flex pt-5 pr-5"
               >
                 <div class="flex-1 flex items-end">
                   <p
-                    class="bg-slate-50 pt-5 w-full font-roboto uppercase text-xs font-normal tracking-widest"
+                    class="bg-slate-50 pt-5 w-full font-roboto uppercase text-xs font-semibold tracking-widest"
                   >
                     Special Events
                   </p>
@@ -431,12 +435,12 @@
                   <h1 class="px-4 py-2 text-3xl font-garamond">11</h1>
                 </div>
               </div>
-              <div class="h-2 w-10 bg-gray-600"></div>
+              <div class="h-[3px] w-6 bg-slate-400"></div>
             </div>
-            <div>
-              <h1 class="text-3xl font-garamond">Cores Day 2025</h1>
+            <div class="space-y-1">
+              <h1 class="text-2xl font-garamond">Cores Day 2025</h1>
 
-              <p>
+              <p class="text-sm xl:text-base text-blue/70">
                 The annual Cores Day event is a joint venture between Penn Vet,
                 the Children’s Hospital of Philadelphia, the Perelman School of
                 Medicine, and the Wistar Institute to showcase the many
@@ -447,14 +451,14 @@
               </p>
             </div>
           </div>
-          <div class="px-5 flex flex-col gap-y-5">
-            <div class="flex-1 flex flex-col gap-y-1">
+          <div class="flex flex-col gap-y-5 pl-4 lg:pl-8">
+            <div class="flex-1 flex flex-col gap-y-2">
               <div
                 class="bg-[url('/upcoming-events-3.jpeg')] bg-center bg-cover flex-1 flex pt-5 pr-5"
               >
                 <div class="flex-1 flex items-end">
                   <p
-                    class="bg-slate-50 pt-5 w-full font-roboto uppercase text-xs font-normal tracking-widest"
+                    class="bg-slate-50 pt-5 w-full font-roboto uppercase text-xs font-semibold tracking-widest"
                   >
                     Special Events
                   </p>
@@ -466,12 +470,12 @@
                   <h1 class="px-4 py-2 text-3xl font-garamond">11</h1>
                 </div>
               </div>
-              <div class="h-2 w-10 bg-gray-600"></div>
+              <div class="h-[3px] w-6 bg-slate-400"></div>
             </div>
-            <div>
-              <h1 class="text-3xl font-garamond">Cores Day 2025</h1>
+            <div class="space-y-1">
+              <h1 class="text-2xl font-garamond">Cores Day 2025</h1>
 
-              <p class="text-sm">
+              <p class="text-sm xl:text-base text-blue/70">
                 The annual Cores Day event is a joint venture between Penn Vet,
                 the Children’s Hospital of Philadelphia, the Perelman School of
                 Medicine, and the Wistar Institute to showcase the many
@@ -485,7 +489,7 @@
         </div>
         <div>
           <p
-            class="pt-5 w-full font-roboto uppercase text-xs font-normal tracking-widest"
+            class="pt-5 w-full font-roboto uppercase text-xs font-semibold tracking-widest"
           >
             MORE EVENTS VIA PENN TODAY
           </p>
@@ -494,24 +498,26 @@
     </section>
 
     <section class="pb-20">
-      <div class="max-w-screen-xl mx-auto grid grid-cols-2 gap-x-10">
-        <div class="bg-blue-900 text-slate-50 text-center p-3">
+      <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 px-5">
+        <div
+          class="bg-blue text-slate-50 container mx-auto text-center w-fit max-w-xl p-3"
+        >
           <div
-            class="border-1 border-red-400 p-7 pt-20 flex flex-col gap-y-8 items-center"
+            class="border-1 border-slate-700 py-10 px-3 pt-20 flex flex-col gap-y-8 items-center"
           >
             <div class="flex flex-col gap-y-2 items-center">
               <h1
-                class="font-roboto uppercase text-sm font-normal tracking-widest"
+                class="font-roboto uppercase text-xs font-semibold tracking-widest"
               >
                 Health & Medicine
               </h1>
-              <p class="font-garamond text-4xl">
+              <p class="font-garamond text-2xl lg:text-4xl">
                 Keeping food safe and animals healthy
               </p>
-              <div class="w-6 h-2 bg-gray-600"></div>
+              <div class="w-6 h-[3px] bg-slate-600"></div>
             </div>
 
-            <div class="px-10 bg-red-300 text-lg">
+            <div class="px-10 text-sm/loose lg:text-lg">
               <p>
                 As part of the Pennsylvania Animal Diagnostic Laboratory System
                 (PADLS), Penn Vet’s New Bolton Center helps to protect animals
@@ -521,29 +527,31 @@
             </div>
 
             <button
-              class="px-20 py-5 rounded-4xl border-1 border-slate-500 font-roboto uppercase text-sm font-normal tracking-widest"
+              class="px-14 py-6 rounded-4xl border-1 border-slate-600 font-roboto uppercase text-xs font-semibold tracking-widest"
             >
               LEARN MORE
             </button>
           </div>
         </div>
-        <div class="bg-blue-900 text-slate-50 text-center p-3">
+        <div
+          class="bg-blue text-slate-50 container mx-auto text-center w-fit max-w-xl p-3"
+        >
           <div
-            class="border-1 border-red-400 p-7 pt-20 flex flex-col gap-y-8 items-center"
+            class="border-1 border-slate-700 py-10 px-3 pt-20 flex flex-col gap-y-8 items-center"
           >
             <div class="flex flex-col gap-y-2 items-center">
               <h1
-                class="font-roboto uppercase text-sm font-normal tracking-widest"
+                class="font-roboto uppercase text-xs font-semibold tracking-widest"
               >
                 Health & Medicine
               </h1>
-              <p class="font-garamond text-4xl">
+              <p class="font-garamond text-2xl lg:text-4xl">
                 Keeping food safe and animals healthy
               </p>
-              <div class="w-6 h-2 bg-gray-600"></div>
+              <div class="w-6 h-[3px] bg-slate-600"></div>
             </div>
 
-            <div class="px-10 bg-red-300 text-lg">
+            <div class="px-10 text-sm/loose lg:text-lg">
               <p>
                 As part of the Pennsylvania Animal Diagnostic Laboratory System
                 (PADLS), Penn Vet’s New Bolton Center helps to protect animals
@@ -553,7 +561,7 @@
             </div>
 
             <button
-              class="px-20 py-5 rounded-4xl border-1 border-slate-500 font-roboto uppercase text-sm font-normal tracking-widest"
+              class="px-14 py-6 rounded-4xl border-1 border-slate-600 font-roboto uppercase text-xs font-semibold tracking-widest"
             >
               LEARN MORE
             </button>
